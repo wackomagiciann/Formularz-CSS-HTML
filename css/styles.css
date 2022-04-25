@@ -1,0 +1,174 @@
+/* Background style */
+
+body { 
+    background-image: url("../photos/background-img.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: center center;
+}
+
+
+#title{
+    font-family: "Merriweather", sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+}
+
+#description{ 
+    font-family: "Merriweather", sans-serif;
+    font-size: 2.5vh;
+    font-style: italic;
+    margin: 1vh 30vw 8vh 30vw;
+    text-align: justify;
+}
+
+.form{
+    background-color: rgba(194, 112, 153, 0.5);
+    margin: 1vh 23vw 10vh 23vw;
+    min-width: 320px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#test-form{
+    margin: 0 4vw 0 4vw;
+    padding: 2vw 0 2vw 0;
+    width: 100%;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 550;
+}
+
+#test-form > label {
+    display: block;
+    padding: 0 0 0.8vh 0;
+    color: white;
+    font-size: 18px;
+}
+
+#test-form > p {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0.8vh;
+}
+
+::placeholder{
+    color:rgba(71, 53, 62, 0.9);
+}
+
+#test-form > input{
+    font-size: 1rem;
+    background-color: white;
+    display: block;
+    margin-bottom: 5vh;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    height: 2.3rem;
+    padding: 0.5vh;
+}
+
+.form-components > label{
+    padding: 0 0 0.5vh 0;
+    color: white;
+    font-size: 18px;
+    display: block;
+}
+
+.form-components > p {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0.5vh;
+}
+
+.form-components > input {
+    font-size: 1rem;
+    background-color: white;
+    display: block;
+    margin-bottom: 5vh;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    height: 2.3rem;
+    padding: 0.5vh;
+
+}
+
+select{
+    font-size: 1rem;
+    background-color: white;
+    display: block;
+    margin-bottom: 5vh;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: rgba(71, 53, 62, 0.9);
+    padding: 0.5vh;
+}
+
+option{
+    color:rgba(71, 53, 62, 0.9);
+}
+
+#checkboxes > label{
+    padding: 0 0 0.5vh 0;
+    color: white;
+    font-size: 0.9rem;
+    display: block;
+}
+
+#radio1 > label{
+    padding: 0 0 0.5vh 0;
+    color: white;
+    font-size: 0.9rem;
+    display: block;
+}
+
+
+.form-components {
+    margin: 5vh 0 5vh 0;
+}
+
+#test-form > input[type=submit]{
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: #E28C23 !important;
+    display: block;
+    width: 100%;
+    border: 2px solid #ced4da !important;
+    border-radius: 0.3rem;
+    padding: 1vw 15% 1vw 15%;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    height: auto;
+    color: white;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #303F6A;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .form{
+        background-color: rgba(194, 112, 153, 0.5);
+        min-width: 320px;
+        margin: 1vh 15% 10vh 15%;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+    }
+}
+  
